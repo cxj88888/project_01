@@ -1,0 +1,22 @@
+#忽略demo1.css
+demo1.css
+
+#只忽略当前目录下的js文件
+/js
+
+#忽略任何目录下的test目录
+test/
+
+#忽略所有.css文件   子文件夹有html和css文件显示 ？？lib/
+*.css
+
+#但不忽略 you子文件夹下的css文件
+!you/*.css
+
+#忽略you子文件夹以及所有孙目录下的txt
+txt/**/*.txt
+
+#但不忽略 所有lib.css文件
+!lib.css
+
+
